@@ -1,0 +1,16 @@
+/* Start Variabls */
+
+/* EndVariables */
+/* Start Global Ruls */
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+.perent{
+    background-color: #eee;
+}
+/* End Global Ruls */
