@@ -1,10 +1,11 @@
 /* Start Variabls */
 :root {
     --main-color: #10cab7;
+    --secondary-color: #2c4755;
 }
 /* EndVariables */
 /* Start Global Ruls */
-*{
+* {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -15,13 +16,17 @@ body{
 .perent {
     background-color: rgb(247, 164, 229);
 }
-.container{
+.container {
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto; 
     /* background-color: rgb(255, 113, 113); */
 }
+p {
+    font-family: cursive;
+}
+
 /* Small */
 @media (min-width: 768px) {
     .container {
@@ -212,11 +217,49 @@ header .links ul li:not(:last-child) a {
     padding-bottom: 60px;
 
 }
-.services .container .services-container {
+.services  .services-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 30px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.services .services-container .serv {
+    display: flex;
+    margin-bottom: 30px;
+}
+@media (max-width: 767px) {
+.services .services-container .serv {
+flex-direction: column;
+text-align: center;
+}
+}
 
+
+.services .services-container i {
+    color: var(--main-color);
+    flex-basis: 60px;
+}
+.services .services-container .serv .text {
+    flex: 1;
+}
+.services .services-container .serv .text h3 {
+    margin: 0 0 20px;
+}
+.services .services-container .serv .text p {
+    color: #444;
+    font-weight: 300;
+    line-height: 1.6;
+}
+.services .services-container .image {
+    text-align: center;
+    position: relative;
+}
+.services .services-container .image::after {
+    content: "";
+}
+.services .services-container .image .img {
+    width: 260px;
 }
 
 /* End Services */
