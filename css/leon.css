@@ -351,6 +351,24 @@ text-align: center;
     top: -40px;
     z-index: -1;
 }
+.about .about-containet .text {
+    flex-basis: calc(100% - 500px);
+}
+.about .about-containet .text p:first-of-type {
+    font-weight: bold;
+    line-height: 2;
+    margin-bottom: 50px;
+}
+.about .about-containet .text hr {
+    display: inline-block;
+    width: 50%;
+    border-color: var(--main-color);
+    
+}
+.about .about-containet .text p:last-of-type {
+    line-height: 2;
+    color: #777;
+}
 
 
 /* END About */
