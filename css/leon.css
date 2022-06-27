@@ -153,6 +153,7 @@ header .links ul li a {
 }
 header .links ul li a:hover{
     padding-left: 25px;
+    color: #10cab7;
 }
 header .links ul li:not(:last-child) a {
     border-bottom: 1px solid #ddd;
@@ -161,15 +162,15 @@ header .links ul li:not(:last-child) a {
 
 /*  START Landing */
 .landing{
-    background-image:url(../images/background.jpg) ;
+    background-image:url(../images/background3.jpg) ;
     background-size: cover;
     height: calc(100vh - 64px);
     position: relative;
 }
 .landing .intro-text {
     position: absolute;
-    left: 56%;
-    top: 33%;
+    left: 70%;
+    top: 20%;
     text-align: center;
     transform: translate(-50%, -50%);
 }
