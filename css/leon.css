@@ -183,7 +183,11 @@ header .links ul li:not(:last-child) a {
 .landing .intro-text p {
     font-size: 19px;
     line-height: 1.8;
-    color: var(--secondary-color);
+    color: #1e2849;
+    transition: 0.5s;
+}
+.landing .intro-text p:hover {
+    letter-spacing: 0.4px;
 }
 /*  END Landing */
 
