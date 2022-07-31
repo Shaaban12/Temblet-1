@@ -164,8 +164,10 @@ header .links ul li:not(:last-child) a {
 .landing{
     background-image:url(../images/background3.jpg) ;
     background-size: cover;
-    height: calc(100vh - 64px);
+    background-attachment: fixed;
+    min-height: calc(100vh - 64px);
     position: relative;
+
 }
 .landing .intro-text {
     position: absolute;
