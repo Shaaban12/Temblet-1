@@ -172,7 +172,7 @@ header .links ul li:not(:last-child) a {
 .landing .intro-text {
     position: absolute;
     left: 70%;
-    top: 20%;
+    top: 17%;
     text-align: center;
     transform: translate(-50%, -50%);
 }
